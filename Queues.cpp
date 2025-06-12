@@ -75,3 +75,12 @@ class Queues {
         }
         cout << "\n Element in the game are.....\n";
 
+        //Jika front posision iterassi dari dari front hingga rear
+        if (front_posisition <= rear_posisition){
+            while (front_posisition <= rear_posisition){
+                cout << queues_array[front_posisition] << " ";
+                front_posisition++;
+            }
+            cout << endl;
+        }
+       
