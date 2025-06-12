@@ -91,3 +91,28 @@ class Queues {
             }
             
             front_posisition = 0;
+
+             while (front_posisition <= rear_posisition){
+                cout << queues_array[front_posisition] << " ";
+                front_posisition++;
+            }
+            cout << endl;
+
+        }
+    }
+};
+
+int main (){
+    Queues f;
+    char ch;
+
+    while (true){
+        try{
+            cout << "Menu" <<endl;
+            cout << "1. Emplemnt Insert Operation" << endl;
+            cout << "2. Implement Delete Operation" << endl; 
+            cout << "3. Display Value " <<endl;
+            cout << "4. Exit" <<endl;
+            cout << "Enter Your Choice (1-4)" <<endl;
+            cin >> ch;
+            cout <<endl;
