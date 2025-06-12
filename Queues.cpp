@@ -27,8 +27,8 @@ class Queues {
 
         //2. Cek Antrian Apakah Kosong
         if (FRONT == -1){
-            FRONT == 0; //2.a
-            REAR == 0; //2.b
+            FRONT = 0; //2.a
+            REAR = 0; //2.b
 
         }
         else {
