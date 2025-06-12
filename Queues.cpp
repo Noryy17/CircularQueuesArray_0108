@@ -83,4 +83,11 @@ class Queues {
             }
             cout << endl;
         }
-       
+        else{
+            //Jika Front Posisition = Rear Position,iterasi dari front hingga akhir array
+            while (FRONT-front_posisition <= max -1){
+                cout << queues_array[front_posisition] << "  ";
+                front_posisition++;
+            }
+            
+            front_posisition = 0;
