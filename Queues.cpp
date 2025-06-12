@@ -24,3 +24,9 @@ class Queues {
             cout << "\nQueues Overflow\n"; //1.0
             return;
         }
+
+        //2. Cek Antrian Apakah Kosong
+        if (FRONT == -1){
+            FRONT == 0; //2.a
+            REAR == 0; //2.b
+
