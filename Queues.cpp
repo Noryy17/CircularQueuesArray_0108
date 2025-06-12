@@ -68,4 +68,10 @@ class Queues {
         int front_posisition = FRONT;
         int rear_posisition = REAR;
 
- 
+        // Cek Apakah Antrian Kosong
+        if (FRONT == -1){
+            cout << "Queues is Empty\n";
+            return;
+        }
+        cout << "\n Element in the game are.....\n";
+
