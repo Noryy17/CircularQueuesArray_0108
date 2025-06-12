@@ -133,7 +133,7 @@ int main (){
                 }
                  case '4':{
                     
-                return;
+                return 0;
                 }
                 default:{
                     cout << "Invalid Optional " << endl;
