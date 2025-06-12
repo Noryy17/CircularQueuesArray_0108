@@ -49,3 +49,10 @@ class Queues {
             return;
         }
         cout << "\nThe Element deleted from the queue is : " << queues_array[FRONT] << "\n";
+
+        //Cek Jika Antrian hanya memiliki satu element
+        if (FRONT == REAR){
+            FRONT = -1;
+            REAR = -1;
+        }
+       
